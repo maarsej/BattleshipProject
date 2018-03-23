@@ -27,8 +27,34 @@ body {
 
 h1 {
   font-size: 150%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+footer {
+  padding-left: 10px;
+  position: relative;
+  top: 850px;
+  left: 0;
+}
+button {
+  border-radius: 8px;
+  padding: 14px 40px;
+}
+#gamefeed {
+  position: fixed;
+  top: 105px;
+  height: 510px;
+  width: 320px;
+  padding: 5px;
+  border: 0px;
+  background-color: #43464B;
+  z-index: -1;
+
 }
 #table {
+  position: fixed;
+  top: 105px;
+  left: 350px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: auto;
@@ -36,7 +62,7 @@ h1 {
   width: 1220px;
   padding: 5px;
   border: 0px;
-  background-color: #c19b6c;
+  background-color: #43464B;
 
 }
 #P1-grid-container {
@@ -65,6 +91,16 @@ h1 {
   padding: 0px;
   border: 1px solid;
 }
+.blink_red_button {
+  background-color: red;
+}
+.blink_red {
+  color: red;
+}
+
+li {
+  color: white;
+}
 
 .grid-item {
   /*grid-column: 2/span 1;*/
@@ -88,7 +124,16 @@ h1 {
   background-color: #43464B;
 }
 .grid-item:hover {
-  background-color: #ffffff;
+  background-color: #BEBEBE;
 }
-
+.artificialhover {
+  background-color: #BEBEBE;
+}
+#buttonwrap {
+  align-content: center;
+  padding-top: 15px;
+}
+#startgame {
+  align-self: auto;
+}
 

@@ -1,7 +1,6 @@
-
-
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
   <meta charset="utf-8">
   <title>Jacob's Battleship Gaming Extravaganza</title>
@@ -12,270 +11,32 @@
   <header>
     <h1 style="text-align: center;">
       <a href="battleships.html">Jacob's Battleship Gaming Extravaganza</a>
+      <div id="buttonwrap">
+        <button type="button" id="startgame">Start Game</button>
+      </div>
     </h1>
-    <div style="text-align: center; font-weight:  bold">
-      <small><br/>placeholder to make space between title and grid<br/> !</small>
+    <div id="gamefeed">
+      <h3 style='color: white;' >Game Feed:</h3>
     </div>
     <div id="table">
-      <div  id="P1-grid-container">
-        <div id="P1gridA1"class="grid-item">A1</div>
-        <div id="P1gridA2"class="grid-item">A2</div>
-        <div id="P1gridA3"class="grid-item">A3</div>
-        <div id="P1gridA4"class="grid-item">A4</div>
-        <div id="P1gridA5"class="grid-item">A5</div>
-        <div id="P1gridA6"class="grid-item">A6</div>
-        <div id="P1gridA7"class="grid-item">A7</div>
-        <div id="P1gridA8"class="grid-item">A8</div>
-        <div id="P1gridA9"class="grid-item">A9</div>
-        <div id="P1gridA10"class="grid-item">A10</div>
-        <div id="P1gridB1"class="grid-item">B1</div>
-        <div id="P1gridB2"class="grid-item">B2</div>
-        <div id="P1gridB3"class="grid-item">B3</div>
-        <div id="P1gridB4"class="grid-item">B4</div>
-        <div id="P1gridB5"class="grid-item">B5</div>
-        <div id="P1gridB6"class="grid-item">B6</div>
-        <div id="P1gridB7"class="grid-item">B7</div>
-        <div id="P1gridB8"class="grid-item">B8</div>
-        <div id="P1gridB9"class="grid-item">B9</div>
-        <div id="P1gridB10"class="grid-item">B10</div>
-        <div id="P1gridC1"class="grid-item">C1</div>
-        <div id="P1gridC2"class="grid-item">C2</div>
-        <div id="P1gridC3"class="grid-item">C3</div>
-        <div id="P1gridC4"class="grid-item">C4</div>
-        <div id="P1gridC5"class="grid-item">C5</div>
-        <div id="P1gridC6"class="grid-item">C6</div>
-        <div id="P1gridC7"class="grid-item">C7</div>
-        <div id="P1gridC8"class="grid-item">C8</div>
-        <div id="P1gridC9"class="grid-item">C9</div>
-        <div id="P1gridC10"class="grid-item">C10</div>
-        <div id="P1gridD1"class="grid-item">D1</div>
-        <div id="P1gridD2"class="grid-item">D2</div>
-        <div id="P1gridD3"class="grid-item">D3</div>
-        <div id="P1gridD4"class="grid-item">D4</div>
-        <div id="P1gridD5"class="grid-item">D5</div>
-        <div id="P1gridD6"class="grid-item">D6</div>
-        <div id="P1gridD7"class="grid-item">D7</div>
-        <div id="P1gridD8"class="grid-item">D8</div>
-        <div id="P1gridD9"class="grid-item">D9</div>
-        <div id="P1gridD10"class="grid-item">D10</div>
-        <div id="P1gridE1"class="grid-item">E1</div>
-        <div id="P1gridE2"class="grid-item">E2</div>
-        <div id="P1gridE3"class="grid-item">E3</div>
-        <div id="P1gridE4"class="grid-item">E4</div>
-        <div id="P1gridE5"class="grid-item">E5</div>
-        <div id="P1gridE6"class="grid-item">E6</div>
-        <div id="P1gridE7"class="grid-item">E7</div>
-        <div id="P1gridE8"class="grid-item">E8</div>
-        <div id="P1gridE9"class="grid-item">E9</div>
-        <div id="P1gridE10"class="grid-item">E10</div>
-        <div id="P1gridF1"class="grid-item">F1</div>
-        <div id="P1gridF2"class="grid-item">F2</div>
-        <div id="P1gridF3"class="grid-item">F3</div>
-        <div id="P1gridF4"class="grid-item">F4</div>
-        <div id="P1gridF5"class="grid-item">F5</div>
-        <div id="P1gridF6"class="grid-item">F6</div>
-        <div id="P1gridF7"class="grid-item">F7</div>
-        <div id="P1gridF8"class="grid-item">F8</div>
-        <div id="P1gridF9"class="grid-item">F9</div>
-        <div id="P1gridF10"class="grid-item">F10</div>
-        <div id="P1gridG1"class="grid-item">G1</div>
-        <div id="P1gridG2"class="grid-item">G2</div>
-        <div id="P1gridG3"class="grid-item">G3</div>
-        <div id="P1gridG4"class="grid-item">G4</div>
-        <div id="P1gridG5"class="grid-item">G5</div>
-        <div id="P1gridG6"class="grid-item">G6</div>
-        <div id="P1gridG7"class="grid-item">G7</div>
-        <div id="P1gridG8"class="grid-item">G8</div>
-        <div id="P1gridG9"class="grid-item">G9</div>
-        <div id="P1gridG10"class="grid-item">G10</div>
-        <div id="P1gridH1"class="grid-item">H1</div>
-        <div id="P1gridH2"class="grid-item">H2</div>
-        <div id="P1gridH3"class="grid-item">H3</div>
-        <div id="P1gridH4"class="grid-item">H4</div>
-        <div id="P1gridH5"class="grid-item">H5</div>
-        <div id="P1gridH6"class="grid-item">H6</div>
-        <div id="P1gridH7"class="grid-item">H7</div>
-        <div id="P1gridH8"class="grid-item">H8</div>
-        <div id="P1gridH9"class="grid-item">H9</div>
-        <div id="P1gridH10"class="grid-item">H10</div>
-        <div id="P1gridI1"class="grid-item">I1</div>
-        <div id="P1gridI2"class="grid-item">I2</div>
-        <div id="P1gridI3"class="grid-item">I3</div>
-        <div id="P1gridI4"class="grid-item">I4</div>
-        <div id="P1gridI5"class="grid-item">I5</div>
-        <div id="P1gridI6"class="grid-item">I6</div>
-        <div id="P1gridI7"class="grid-item">I7</div>
-        <div id="P1gridI8"class="grid-item">I8</div>
-        <div id="P1gridI9"class="grid-item">I9</div>
-        <div id="P1gridI10"class="grid-item">I10</div>
-        <div id="P1gridJ1"class="grid-item">J1</div>
-        <div id="P1gridJ2"class="grid-item">J2</div>
-        <div id="P1gridJ3"class="grid-item">J3</div>
-        <div id="P1gridJ4"class="grid-item">J4</div>
-        <div id="P1gridJ5"class="grid-item">J5</div>
-        <div id="P1gridJ6"class="grid-item">J6</div>
-        <div id="P1gridJ7"class="grid-item">J7</div>
-        <div id="P1gridJ8"class="grid-item">J8</div>
-        <div id="P1gridJ9"class="grid-item">J9</div>
-        <div id="P1gridJ10"class="grid-item">J10</div>
-
+      <div id="P1-grid-container">
+        <!-- player 1 board -->
       </div>
-      <div  id="P2-grid-container">
-      <div id="P2gridA1"class="grid-item">A1</div>
-      <div id="P2gridA2"class="grid-item">A2</div>
-      <div id="P2gridA3"class="grid-item">A3</div>
-      <div id="P2gridA4"class="grid-item">A4</div>
-      <div id="P2gridA5"class="grid-item">A5</div>
-      <div id="P2gridA6"class="grid-item">A6</div>
-      <div id="P2gridA7"class="grid-item">A7</div>
-      <div id="P2gridA8"class="grid-item">A8</div>
-      <div id="P2gridA9"class="grid-item">A9</div>
-      <div id="P2gridA10"class="grid-item">A10</div>
-      <div id="P2gridB1"class="grid-item">B1</div>
-      <div id="P2gridB2"class="grid-item">B2</div>
-      <div id="P2gridB3"class="grid-item">B3</div>
-      <div id="P2gridB4"class="grid-item">B4</div>
-      <div id="P2gridB5"class="grid-item">B5</div>
-      <div id="P2gridB6"class="grid-item">B6</div>
-      <div id="P2gridB7"class="grid-item">B7</div>
-      <div id="P2gridB8"class="grid-item">B8</div>
-      <div id="P2gridB9"class="grid-item">B9</div>
-      <div id="P2gridB10"class="grid-item">B10</div>
-      <div id="P2gridC1"class="grid-item">C1</div>
-      <div id="P2gridC2"class="grid-item">C2</div>
-      <div id="P2gridC3"class="grid-item">C3</div>
-      <div id="P2gridC4"class="grid-item">C4</div>
-      <div id="P2gridC5"class="grid-item">C5</div>
-      <div id="P2gridC6"class="grid-item">C6</div>
-      <div id="P2gridC7"class="grid-item">C7</div>
-      <div id="P2gridC8"class="grid-item">C8</div>
-      <div id="P2gridC9"class="grid-item">C9</div>
-      <div id="P2gridC10"class="grid-item">C10</div>
-      <div id="P2gridD1"class="grid-item">D1</div>
-      <div id="P2gridD2"class="grid-item">D2</div>
-      <div id="P2gridD3"class="grid-item">D3</div>
-      <div id="P2gridD4"class="grid-item">D4</div>
-      <div id="P2gridD5"class="grid-item">D5</div>
-      <div id="P2gridD6"class="grid-item">D6</div>
-      <div id="P2gridD7"class="grid-item">D7</div>
-      <div id="P2gridD8"class="grid-item">D8</div>
-      <div id="P2gridD9"class="grid-item">D9</div>
-      <div id="P2gridD10"class="grid-item">D10</div>
-      <div id="P2gridE1"class="grid-item">E1</div>
-      <div id="P2gridE2"class="grid-item">E2</div>
-      <div id="P2gridE3"class="grid-item">E3</div>
-      <div id="P2gridE4"class="grid-item">E4</div>
-      <div id="P2gridE5"class="grid-item">E5</div>
-      <div id="P2gridE6"class="grid-item">E6</div>
-      <div id="P2gridE7"class="grid-item">E7</div>
-      <div id="P2gridE8"class="grid-item">E8</div>
-      <div id="P2gridE9"class="grid-item">E9</div>
-      <div id="P2gridE10"class="grid-item">E10</div>
-      <div id="P2gridF1"class="grid-item">F1</div>
-      <div id="P2gridF2"class="grid-item">F2</div>
-      <div id="P2gridF3"class="grid-item">F3</div>
-      <div id="P2gridF4"class="grid-item">F4</div>
-      <div id="P2gridF5"class="grid-item">F5</div>
-      <div id="P2gridF6"class="grid-item">F6</div>
-      <div id="P2gridF7"class="grid-item">F7</div>
-      <div id="P2gridF8"class="grid-item">F8</div>
-      <div id="P2gridF9"class="grid-item">F9</div>
-      <div id="P2gridF10"class="grid-item">F10</div>
-      <div id="P2gridG1"class="grid-item">G1</div>
-      <div id="P2gridG2"class="grid-item">G2</div>
-      <div id="P2gridG3"class="grid-item">G3</div>
-      <div id="P2gridG4"class="grid-item">G4</div>
-      <div id="P2gridG5"class="grid-item">G5</div>
-      <div id="P2gridG6"class="grid-item">G6</div>
-      <div id="P2gridG7"class="grid-item">G7</div>
-      <div id="P2gridG8"class="grid-item">G8</div>
-      <div id="P2gridG9"class="grid-item">G9</div>
-      <div id="P2gridG10"class="grid-item">G10</div>
-      <div id="P2gridH1"class="grid-item">H1</div>
-      <div id="P2gridH2"class="grid-item">H2</div>
-      <div id="P2gridH3"class="grid-item">H3</div>
-      <div id="P2gridH4"class="grid-item">H4</div>
-      <div id="P2gridH5"class="grid-item">H5</div>
-      <div id="P2gridH6"class="grid-item">H6</div>
-      <div id="P2gridH7"class="grid-item">H7</div>
-      <div id="P2gridH8"class="grid-item">H8</div>
-      <div id="P2gridH9"class="grid-item">H9</div>
-      <div id="P2gridH10"class="grid-item">H10</div>
-      <div id="P2gridI1"class="grid-item">I1</div>
-      <div id="P2gridI2"class="grid-item">I2</div>
-      <div id="P2gridI3"class="grid-item">I3</div>
-      <div id="P2gridI4"class="grid-item">I4</div>
-      <div id="P2gridI5"class="grid-item">I5</div>
-      <div id="P2gridI6"class="grid-item">I6</div>
-      <div id="P2gridI7"class="grid-item">I7</div>
-      <div id="P2gridI8"class="grid-item">I8</div>
-      <div id="P2gridI9"class="grid-item">I9</div>
-      <div id="P2gridI10"class="grid-item">I10</div>
-      <div id="P2gridJ1"class="grid-item">J1</div>
-      <div id="P2gridJ2"class="grid-item">J2</div>
-      <div id="P2gridJ3"class="grid-item">J3</div>
-      <div id="P2gridJ4"class="grid-item">J4</div>
-      <div id="P2gridJ5"class="grid-item">J5</div>
-      <div id="P2gridJ6"class="grid-item">J6</div>
-      <div id="P2gridJ7"class="grid-item">J7</div>
-      <div id="P2gridJ8"class="grid-item">J8</div>
-      <div id="P2gridJ9"class="grid-item">J9</div>
-      <div id="P2gridJ10"class="grid-item">J10</div>
-      <!-- <script> does not work plz fix
-        function drawGrid() {
-          var gridID = [];
-        // var gridIDcolumn;
-        // var gridIDrow =['A','B','C','D'...]
-        // <div class="grid-item">1</div>           <==== this line prints a grid item
-        for (i = 1; i<=100; i++){
-          gridID[i] = document.createElement("grid-item");
-
-          // gridID[i].printElement();
-          }
-        }
-        window.onload = drawGrid();
-      </script> -->
-      <!-- <button onclick="drawGrid();">draw grid</button> -->
+      <div id="P2-grid-container">
+        <!-- player 2 board -->
       </div>
     </div>
 
-<script> //place ships
-// Add active class to the current button (highlight it)
-var header = document.getElementById("P1-grid-container");
-var tiles = header.getElementsByClassName("grid-item");
-for (var i = 0; i < tiles.length; i++) {
-  tiles[i].addEventListener("click", function() {
-    //var current = document.getElementsByClassName("active");             //
-    // current[0].className = current[0].className.replace(" active", ""); // <==== this is what deactivates
-    this.className += " ship";
-  });
-}
-</script>
-<script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("P2-grid-container");
-var tiles = header.getElementsByClassName("grid-item");
-for (var i = 0; i < tiles.length; i++) {
-  tiles[i].addEventListener("click", function() {
-    //var current = document.getElementsByClassName("active");             //
-    // current[0].className = current[0].className.replace(" active", ""); // <==== this is what deactivates
-    this.className += " ship";
-    var objectModified = this;
-    document.getElementById("myText").innerHTML = Object.keys(objectModified);
-
-  });
-}
-
-</script>
-
-  <footer style="width: 100%; height: 150px; position: fixed; bottom: 0px; left: 0px;">
-    <small>&copy; Gaming Experience</small>
-    <small><br/>TEST VALUES OUTPUT(on click of p2 grid): <span id="myText"></span></small>
-    <nav>
-      <a href="battleships.html">Home</a>
-      <a href="Leaderboard.html">Leaderboard</a>
-    </nav>
-  </footer>
-
+    <footer>
+      <small>&copy; Gaming Experience</small>
+      <nav>
+        <a href="battleships.html">Home</a>
+        <a href="Leaderboard.html">Leaderboard</a>
+      </nav>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="battleship.js"></script>
 </body>
+
 </html>
