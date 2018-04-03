@@ -32,9 +32,9 @@ h1 {
 }
 footer {
   padding-left: 10px;
-  position: relative;
-  top: 850px;
-  left: 0;
+  position: fixed;
+  bottom: 10px;
+
 }
 button {
   border-radius: 8px;
@@ -44,17 +44,18 @@ button {
   position: fixed;
   top: 105px;
   height: 510px;
-  width: 320px;
+  width: 300px;
   padding: 5px;
   border: 0px;
   background-color: #43464B;
   z-index: -1;
+  overflow: hidden;
 
 }
 #table {
   position: fixed;
   top: 105px;
-  left: 350px;
+  left: 345px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: auto;
@@ -117,18 +118,20 @@ li {
   height: 35px;
   margin: auto;
 }
-.shot {
-  background-color: #ff0000;
+
+.artificialHover {
+  background-color: #BEBEBE;
 }
 .ship {
   background-color: #43464B;
 }
+.shot {
+  background-color: #ff0000;
+}
 .grid-item:hover {
   background-color: #BEBEBE;
 }
-.artificialhover {
-  background-color: #BEBEBE;
-}
+
 #buttonwrap {
   align-content: center;
   padding-top: 15px;
